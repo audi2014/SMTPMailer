@@ -1,0 +1,5 @@
+# ignore composer vendor directory
+/vendor
+.idea/*
+/index.php
+composer.lock

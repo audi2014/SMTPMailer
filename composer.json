@@ -1,0 +1,20 @@
+{
+    "name": "audi2014/smtp-mailer",
+    "description": "send push notifications to fcm and apns in same interface",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Perepelytsia, Artur Mykhailovich",
+            "email": "audi2014@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"^7.0",
+    	"phpmailer/phpmailer": "6.*"
+    },
+    "autoload":{
+        "psr-4": { "Audi2014\\SmtpMailer\\": "src/" }
+    }
+}
